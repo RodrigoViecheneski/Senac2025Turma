@@ -77,9 +77,32 @@ p {
 footer {
   //position: relative;
   clear: both;
-  padding: 20px;
+  padding: 20px 0;
   background-color: red;
 }
+footer img {
+  width: 10%;
+}
+.social {
+  float: right;
+  top: 12px;
+  right: 0;
+}
+.social a {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+.social li {
+  float:left;
+  margin-left: 25px;
+  list-style: none;
+}
+.social a[href*="facebook.com"] {
+  background-image: url("../img/facebook.png");
+}
+
 
 //menu responsivo
 .topnav {
@@ -109,7 +132,44 @@ footer {
 .topnav .icon {
   display: none;
 }
-
+.corpo {
+  max-width: 100%;
+  width: 100%;
+  background-color: #ccc;
+}
+.corpo h2, h4 {
+  font-family: "open_sanssemibold", 'Open Sans', Arial, Helvetica, sans-serif;
+  margin: 12px;
+}
+.flex-container {
+  display: flex;
+}
+.portifolio {
+  flex: 1;
+  width: 280px;
+  height: 280px;
+  background-color: #618685;
+  border: 2px solid black;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.portifolio:last-child {
+  margin-right: 0;
+}
+.esquerda {
+  width: 50%;
+  background-color: green;
+  float: left;
+  height: 400px;
+  text-align: center;
+}
+.direita {
+  width: 50%;
+  background-color: red;
+  float: left;
+  height: 400px;
+  text-align: center;
+}
 /*parte responsiva do menu*/
 
 @media screen and (max-width: 600px) {
@@ -152,7 +212,7 @@ footer {
 .busca h3,
 .menu_itens h3,
 .busca form {
-  margin: 10px;
+  margin: 5px;
   color: #FFFFFF;
 }
 .busca button {
@@ -160,7 +220,7 @@ footer {
   color: white;
   font-weight: bold;
   font-family: verdana;
-  font-size: 15px;
+  font-size: 12px;
   box-shadow: 2px 2px 2px white;
   border-radius: 5px;
   margin-bottom: 15px;
@@ -171,14 +231,14 @@ footer {
   background-color: #618685;
   font-weight: bold;
   font-family: verdana;
-  font-size: 15px;
+  font-size: 12px;
   margin: 5px;
   border-radius: 15px;
 }
 .menu_itens {
   clear: left;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 5px;
+  padding: 1px;
 }
 .menu_itens li {
   background-color: #395756ff;
@@ -186,6 +246,8 @@ footer {
   padding: 5px 10px;
   border-radius: 5px;
   border: 2px solid white;
+  margin-right: 15px;
+  margin-left: -25px;
 }
 .menu_itens a {
   color: white;
@@ -194,7 +256,20 @@ footer {
 .menu_itens ul {
   list-style: none;
 }
-
+@media screen and (max-width: 800px){
+  .destaque {
+    width: 100%;
+    background-color:  #618685;
+  }
+  .img_destaque {
+    width: 100%;
+    background-color: #618685;
+    border-radius: 5px;
+  }
+  .img_destaque img {
+    width: 98%;
+  }
+}
 
 
 

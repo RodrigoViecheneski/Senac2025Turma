@@ -25,5 +25,42 @@
     <section class="img_destaque">
         <img src="img/livros.jpg" alt="Imagem principal do site">
     </section>
+    <div class="corpo">
+        <h2>Repositório dos Alunos</h2>
+        <h4>Clique para conhecer o trabalho de nossos alunos Senac</h4>
+    </div>
+    <div class="flex-container">
+        <div class="portifolio">
+            <section class="esq">
+                Conteúdo 1
+            </section>
+        </div>
+        <div class="portifolio">
+            <section class="meio">
+                Conteúdo 2  
+            </section>
+        </div>
+        <div class="portifolio">
+            <section class="dir">
+                Conteúdo 3  
+            </section>
+        </div>
+    </div>
+    <section class="esquerda">
+        <h3>Atualidades</h3>
+    </section>
+    <section class="direita">
+        <h3>Mais Requisitados</h3>
+    </section>
 </div>
 <?php include 'inc/footer.inc.php'; ?>
+
+
+
+
+
+
+
+
+
+
