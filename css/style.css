@@ -56,10 +56,10 @@ h1 {
   padding: 10px;
 }
 h2 {
-  padding: 20px;
+ /* padding: 20px;*/
 }
 p {
-  padding: 0 45px;
+  /*padding: 0 45px;*/
   text-indent: 15px;
 }
 .evento {
@@ -163,6 +163,16 @@ footer img {
   height: 400px;
   text-align: center;
 }
+.esq img {
+  width: 60%;
+  margin-left: 20%
+  
+}
+.esq p {
+  text-align: justify;
+  margin: 3px;
+  font-family: "open_sanssemibold", 'Open Sans', Arial, Helvetica, sans-serif;
+}
 .direita {
   width: 50%;
   background-color: red;
@@ -170,6 +180,9 @@ footer img {
   height: 400px;
   text-align: center;
 }
+
+
+
 /*parte responsiva do menu*/
 
 @media screen and (max-width: 600px) {
@@ -252,6 +265,15 @@ footer img {
 .menu_itens a {
   color: white;
   text-decoration: none;
+  display: block;
+  width: 100%;
+}
+.menu_itens li:hover {
+  background-color: white;
+  border: 2px solid black;
+}
+.menu_itens a:hover{
+  color: black;
 }
 .menu_itens ul {
   list-style: none;

@@ -1,0 +1,74 @@
+.modelo label::after {
+  position: absolute;
+  top: 30px;
+  content: "";
+  display: block-inline;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.modelo {
+  position: relative;
+  padding-top: 30px;
+}
+label[for="vermelho"]::after {
+  left: 0;
+  background-color: red;
+}
+label[for="azul"]::after {
+  left: 60px;
+  background-color: #6666ff;
+}
+label[for="verde"]::after {
+  left: 120px;
+  background-color: #33cc66;
+}
+
+.modelo input:checked + label::after {
+  border: 6px solid rgba(0, 0, 0, 0.3);
+}
+.modelo input[type="radio"] {
+  display: none;
+}
+.modelo input:not(:checked) + label img {
+  display: none;
+}
+.modelo input:not(:checked) + label li {
+  display: none;
+}
+.modelo input:not(:checked) + label .cadastro {
+  display: none;
+}
+.modelo label img {
+  display: inline;
+  height: 225px;
+  float: left;
+  margin-top: 50px;
+}
+p {
+  text-shadow: 1px 1px 1px #ddd;
+}
+.startup {
+  color: #dd00b55;
+  line-height: 1.3;
+  margin-top: 2px;
+}
+.startup h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.startup p {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+.startup legend {
+  display: block;
+  font: bold 0.9em/2.5 Arial;
+  text-transform: upercase;
+}
+
+.cadastro {
+}

@@ -32,17 +32,18 @@
     <div class="flex-container">
         <div class="portifolio">
             <section class="esq">
-                Conteúdo 1
+                <img src="img/1.png" alt="Logo da startup gameLancer">
+                <p>A gameLancer é uma startup voltada para busca de profissionais da área de tecnologia para desenvolver projetos de jogos em home office...para saber mais.<a href="startup.php">CLICK AQUI</a></p>
             </section>
         </div>
         <div class="portifolio">
             <section class="meio">
-                Conteúdo 2  
+                Conteúdo 2
             </section>
         </div>
         <div class="portifolio">
             <section class="dir">
-                Conteúdo 3  
+                Conteúdo 3
             </section>
         </div>
     </div>
@@ -54,13 +55,3 @@
     </section>
 </div>
 <?php include 'inc/footer.inc.php'; ?>
-
-
-
-
-
-
-
-
-
-
